@@ -1,0 +1,98 @@
+backend:
+  name: github
+  repo: larsolm/sister-blooms
+  branch: main
+
+# For local development
+local_backend: true
+
+media_folder: "public/media"
+public_folder: "/media"
+
+collections:
+  - name: "flowers"
+    label: "Flowers"
+    editor:
+      preview: false
+    files:
+      - file: "public/content/flowers.json"
+        label: "Flower Catalog"
+        name: "catalog"
+        fields:
+          - label: "Flowers"
+            name: "flowers"
+            widget: "list"
+            summary: "{{fields.name}} - ${{fields.price}}"
+            fields:
+              - {
+                  label: "ID",
+                  name: "id",
+                  widget: "string",
+                  hint: "Unique identifier (use lowercase with hyphens)",
+                }
+              - { label: "Name", name: "name", widget: "string" }
+              - {
+                  label: "Slug",
+                  name: "slug",
+                  widget: "string",
+                  hint: "URL-friendly version of name",
+                }
+              - { label: "Image", name: "image", widget: "image" }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "text",
+                  required: false,
+                }
+              - {
+                  label: "Price (USD)",
+                  name: "price",
+                  widget: "number",
+                  value_type: "float",
+                  required: false,
+                }
+              - {
+                  label: "Colors",
+                  name: "colors",
+                  widget: "list",
+                  required: false,
+                  hint: "List of colors present in the flower",
+                }
+              - {
+                  label: "Bloom Size",
+                  name: "bloom_size",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Plant Height",
+                  name: "height",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Availability",
+                  name: "availability",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Category",
+                  name: "category",
+                  widget: "select",
+                  required: false,
+                  options:
+                    [
+                      "Dinner Plate",
+                      "Decorative",
+                      "Cactus",
+                      "Semi-Cactus",
+                      "Ball",
+                      "Pompon",
+                      "Waterlily",
+                      "Anemone",
+                      "Collarette",
+                      "Single",
+                      "Peony",
+                    ],
+                }
