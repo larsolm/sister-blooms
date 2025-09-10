@@ -60,6 +60,11 @@ export default function App() {
               aria-label="Search flowers"
             />
           </div>
+          
+          <div className="scroll-indicator">
+            <div className="scroll-arrow">↓</div>
+            <span>Explore Our Collection</span>
+          </div>
         </div>
       </header>
 
