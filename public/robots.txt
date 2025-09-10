@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://larsolm.github.io/sister-blooms/sitemap.xml

@@ -1,0 +1,82 @@
+{
+  "flowers": [
+    {
+      "id": "cafe-au-lait",
+      "name": "Cafe au Lait",
+      "slug": "cafe-au-lait",
+      "image": "/media/cafe-au-lait.jpg",
+      "description": "A stunning dinner plate dahlia with soft peachy-pink petals that fade to cream at the edges. This variety is known for its massive blooms and strong stems, making it perfect for both garden display and cut flower arrangements.",
+      "price": 12.50,
+      "colors": ["peach", "pink", "cream"],
+      "bloom_size": "10-12 inches",
+      "height": "4-5 feet",
+      "availability": "Spring - Fall",
+      "category": "Dinner Plate"
+    },
+    {
+      "id": "bishop-of-llandaff",
+      "name": "Bishop of Llandaff",
+      "slug": "bishop-of-llandaff",
+      "image": "/media/bishop-of-llandaff.jpg",
+      "description": "A striking dahlia with vibrant red single flowers and dramatic dark bronze foliage. This heritage variety dates back to 1924 and remains one of the most popular dahlias for its bold color contrast and reliable performance.",
+      "price": 8.75,
+      "colors": ["red", "bronze foliage"],
+      "bloom_size": "4-5 inches",
+      "height": "3-4 feet",
+      "availability": "Spring - Fall",
+      "category": "Single"
+    },
+    {
+      "id": "labyrinth",
+      "name": "Labyrinth",
+      "slug": "labyrinth",
+      "image": "/media/labyrinth.jpg",
+      "description": "An enchanting decorative dahlia with intricate layered petals in shades of burgundy and purple. The complex petal formation creates a mesmerizing pattern that draws the eye and makes this variety a true garden showstopper.",
+      "price": 15.00,
+      "colors": ["burgundy", "purple", "deep red"],
+      "bloom_size": "6-8 inches",
+      "height": "4-5 feet",
+      "availability": "Spring - Fall",
+      "category": "Decorative"
+    },
+    {
+      "id": "black-jack",
+      "name": "Black Jack",
+      "slug": "black-jack",
+      "image": "/media/black-jack.jpg",
+      "description": "A dramatic semi-cactus dahlia with deep burgundy petals so dark they appear almost black. The pointed petals and rich color make this variety perfect for creating sophisticated color schemes and adding depth to any garden design.",
+      "price": 11.25,
+      "colors": ["dark burgundy", "black-red"],
+      "bloom_size": "5-6 inches",
+      "height": "3-4 feet",
+      "availability": "Spring - Fall",
+      "category": "Semi-Cactus"
+    },
+    {
+      "id": "orange-cushion",
+      "name": "Orange Cushion",
+      "slug": "orange-cushion",
+      "image": "/media/orange-cushion.jpg",
+      "description": "A cheerful ball dahlia with perfectly round, densely packed petals in bright orange. This compact variety is excellent for borders and containers, producing numerous blooms throughout the growing season.",
+      "price": 9.50,
+      "colors": ["bright orange"],
+      "bloom_size": "3-4 inches",
+      "height": "2-3 feet",
+      "availability": "Spring - Fall",
+      "category": "Ball"
+    },
+    {
+      "id": "salmon-runner",
+      "name": "Salmon Runner",
+      "slug": "salmon-runner",
+      "image": "/media/salmon-runner.jpg",
+      "description": "An elegant waterlily dahlia with soft salmon-pink petals that have a gentle gradient from darker centers to lighter edges. The flat, layered petals resemble a waterlily floating on water, hence the classification name.",
+      "price": 10.75,
+      "colors": ["salmon", "pink"],
+      "bloom_size": "4-5 inches",
+      "height": "3-4 feet",
+      "availability": "Spring - Fall",
+      "category": "Waterlily"
+    }
+  ]
+}
