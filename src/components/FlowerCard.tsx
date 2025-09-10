@@ -23,7 +23,7 @@ export default function FlowerCard({ flower, onClick }: FlowerCardProps) {
     >
       <div className="flower-card__image">
         <img 
-          src={withBase(flower.image)} 
+          src={flower.image.startsWith('http') ? flower.image : withBase(flower.image)} 
           alt={flower.name}
           loading="lazy"
         />

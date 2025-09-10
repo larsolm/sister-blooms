@@ -24,7 +24,7 @@ export default function FlowerModal({ flower, onClose }: FlowerModalProps) {
         
         <div className="modal__content">
           <div className="modal__image">
-            <img src={withBase(flower.image)} alt={flower.name} />
+            <img src={flower.image.startsWith('http') ? flower.image : withBase(flower.image)} alt={flower.name} />
           </div>
           
           <div className="modal__details">
